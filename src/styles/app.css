@@ -1,0 +1,8 @@
+html > *{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Spartan', sans-serif;
+}
+html{
+  background-color: hsl(180, 52%, 96%);
+}

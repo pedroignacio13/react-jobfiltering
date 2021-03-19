@@ -1,0 +1,17 @@
+main{
+  width: 100%;
+  /* height: calc(100vh - 70px); */
+
+  padding: 40px 11.5%;
+
+  box-sizing: border-box;
+
+  position: relative;
+}
+
+@media(max-width: 720px){
+  main{
+    padding: 3%;
+    padding-top: 30px !important;
+  }
+}
