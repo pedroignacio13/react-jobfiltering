@@ -27,8 +27,7 @@ function Job({ job, filterRoles, filterLevel, filterLanguagesAndTools }){
 
         <div className="info">
           {/* img, company, ..., ..., position, postedAt, contract, location */}
-          {/* <div className="company-picture"></div> */}
-          <img src={logo} alt={company} className="company-picture" />
+          <Image src={logo} />
 
           <div className="info-second-column">
             <div className="linha1">
@@ -71,6 +70,10 @@ function Job({ job, filterRoles, filterLevel, filterLanguagesAndTools }){
       </div>
     </>
   )
+}
+
+function Image({ src }){
+  return <img src={src} alt="a" className="company-picture"/>
 }
 
 export default Job
