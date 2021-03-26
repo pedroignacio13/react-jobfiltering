@@ -6,7 +6,6 @@ function Job({ job, filterRoles, filterLevel, filterLanguagesAndTools }){
   const {
     company,
     contract,
-    /* id, */
     languages,
     level,
     location,

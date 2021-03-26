@@ -5,11 +5,9 @@ function FilterBar({ clearFilter, filterbarRef }){
   return (
     <div className="filter-bar">
 
-      <div className="filters" ref={filterbarRef}> 
-        
-      </div>
+      <div className="filters" ref={filterbarRef}></div>
 
-      <button className="clear" onClick={() => clearFilter() }>Clear</button>
+      <button className="clear" onClick={() => clearFilter()}>Clear</button>
 
     </div>
   )

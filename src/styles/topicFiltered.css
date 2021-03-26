@@ -1,6 +1,7 @@
 .topic-filtered{
   display: flex;
   
+  margin: 5px;
 }
 .filter-bar-topic{
   font-size: 11px;
